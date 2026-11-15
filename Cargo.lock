@@ -1456,6 +1456,16 @@ dependencies = [
 ]
 
 [[package]]
+name = "craft-control"
+version = "0.1.0"
+dependencies = [
+ "getrandom 0.3.4",
+ "proptest",
+ "serde",
+ "serde_json",
+]
+
+[[package]]
 name = "craft-crs"
 version = "0.1.0"
 dependencies = [
@@ -1819,16 +1829,6 @@ name = "craft-fonts-build-consumer"
 version = "0.1.0"
 dependencies = [
  "craft-fonts-build",
-]
-
-[[package]]
-name = "craft-format"
-version = "0.1.0"
-dependencies = [
- "craft-zip",
- "proptest",
- "serde_json",
- "sha2 0.10.9",
 ]
 
 [[package]]
