@@ -119,6 +119,7 @@ mod nef_lens;
 mod nefc;
 /// Bounded raw DNG opcode-list envelopes.
 pub mod opcode_raw;
+pub mod opcode_params;
 pub mod opcodes;
 #[cfg(feature = "orf")]
 mod orf;
